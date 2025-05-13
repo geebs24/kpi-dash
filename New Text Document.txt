@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wholesale KPI Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+            background-color: #1a202c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen bg-gray-900 p-6 text-gray-200">
+        <div class="max-w-7xl mx-auto">
+            <!-- Header -->
+            <div class="bg-gray-800 rounded-lg shadow-md border border-gray-700 px-6 py-4 mb-6">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-white">East Port City Distribution</h1>
+                    <span class="bg-blue-600 text-white text-xs font-semibold px-2.5 py-1 rounded ml-3">PREMIUM</span>
+                </div>
+                <p class="text-gray-400">THCA & Tobacco Wholesale KPI Dashboard</p>
+            </div>
+            
+            <!-- Key Metrics -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
+                <div class="bg-gray-800 rounded-lg shadow-md border border-gray-700 p-4">
+                    <div class="text-gray-400 text-sm">Monthly Revenue</div>
+                    <div class="text-2xl font-bold mt-1 text-white">$270,000</div>
+                    <div class="flex items-center mt-1">
+                        <span class="text-green-400 text-sm font-medium">+8.4% </span>
+                        <span class="text-gray-400 text-sm ml-1">vs prev. month</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-md border border-gray-700 p-4">
+                    <div class="text-gray-400 text-sm">Profit Margin</div>
+                    <div class="text-2xl font-bold mt-1 text-white">41.2%</div>
+                    <div class="flex items-center mt-1">
+                        <span class="text-green-400 text-sm font-medium">+2.1% </span>
+                        <span class="text-gray-400 text-sm ml-1">vs prev. month</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-md border border-gray-700 p-4">
+                    <div class="text-gray-400 text-sm">Active Wholesale Partners</div>
+                    <div class="text-2xl font-bold mt-1 text-white">247</div>
+                    <div class="flex items-center mt-1">
+                        <span class="text-green-400 text-sm font-medium">+12 </span>
+                        <span class="text-gray-400 text-sm ml-1">new this month</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-md border border-gray-700 p-4">
+                    <div class="text-gray-400 text-sm">Avg. Order Value</div>
+                    <div class="text-2xl font-bold mt-1 text-white">$6,420</div>
+                    <div class="flex items-center mt-1">
+                        <span class="text-green-400 text-sm font-medium">+$320 </span>
+                        <span class="text-gray-400 text-sm ml-1">vs prev. month</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Main Content -->
+            <div class="bg-gray-800 rounded-lg shadow-md border border-gray-700 p-6">
+                <h2 class="text-xl font-bold mb-4">Dashboard Overview</h2>
+                <p>This is a static version of your THCA & Tobacco Wholesale KPI Dashboard.</p>
+                <p class="mt-4">The full interactive dashboard is coming soon!</p>
+            </div>
+            
+            <!-- Premium Banner -->
+            <div class="mt-6 bg-gradient-to-r from-blue-900 to-indigo-900 rounded-lg shadow-md border border-blue-700 p-6 text-white">
+                <h2 class="text-xl font-bold">Premium Partnership Advantage</h2>
+                <p class="mt-2 text-blue-200">This dashboard is part of your Premium Partnership package, providing you with real-time KPI tracking across all business functions.</p>
+                <button class="mt-4 bg-white text-indigo-700 hover:bg-blue-100 px-6 py-2 rounded-md font-medium">
+                    Access Full Dashboard
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
